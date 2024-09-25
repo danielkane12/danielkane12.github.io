@@ -1,11 +1,11 @@
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-image: URL(../images/field.jpg);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(../images/field.jpg);
 }
 
 h1,
 h2 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   text-align: center;
 }
 
@@ -52,7 +52,7 @@ li a {
   text-decoration: none;
 }
 
-li a: hover {
+li a:hover {
   background-color: #111;
 }
 
@@ -68,8 +68,4 @@ table {
 th,
 td {
   border: 1px solid black;
-}
-
-th .money {
-  text-align: center;
 }
