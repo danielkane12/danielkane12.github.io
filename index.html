@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>LOG Free Agency</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
     </head>
     <body>
@@ -9,7 +10,7 @@
         <nav>
             <ul>
                 <li><a href="#active">Active Bids</a></li>
-                <li><a href="#match">Pending Match</a></li>
+                <li><a href="#match">Pending Match/Decline</a></li>
                 <li><a href="#free">Free Agents</a></li>
                 <li><a href="#closed">Closed Bids</a></li>
                 <li><a href="#accounting">Team Accounting</a></li>
@@ -19,7 +20,7 @@
             <p>add spreadsheet here</p>
             <p>add spreadsheet here</p>
             <p>add spreadsheet here</p>
-        <h2 id="match">Pending Match</h2>
+        <h2 id="match">Pending Match/Decline</h2>
             <p>add spreadsheet here</p>
             <p>add spreadsheet here</p>
             <p>add spreadsheet here</p>
@@ -31,103 +32,105 @@
             <p>add spreadsheet here</p>
             <p>add spreadsheet here</p>
             <p>add spreadsheet here</p>
-        <h2 id="accounting">Team Accounting</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th scope="col">Team</th>
-                        <th class="money" scope="col">Starting $</th>
-                        <th scope="col">Tag Owed</th>
-                        <th scope="col">Bidding</th>
-                        <th scope="col">Balance</th>
-                    </tr>
-                </thead>    
-                <tbody class="accttable">
-                    <tr> <!-- Row 1 -->
-                        <td>Critical Acclaim</td>
-                        <td>$98</td>
-                        <td>$0</td>
-                        <td>$0</td>
-                        <td>$98</td>
-                    </tr>
-                    <tr> <!-- Row 2 -->
-                        <td>Da Short Bus Krew</td>
-                        <td>$130</td>
-                        <td>$84</td>
-                        <td>$0</td>
-                        <td>$46</td>
-                    </tr>
-                    <tr> <!-- Row 3 -->
-                        <td>Flying Chanclas</td>
-                        <td>$266</td>
-                        <td>$0</td>
-                        <td>$0</td>
-                        <td>$266</td>
-                    </tr>
-                    <tr> <!-- Row 4 -->
-                        <td>Global WarNing</td>
-                        <td>$217</td>
-                        <td>$33</td>
-                        <td>$0</td>
-                        <td>$184</td>
-                    </tr>
-                    <tr> <!-- Row 5 -->
-                        <td>Gypsy Danger</td>
-                        <td>$269</td>
-                        <td>$0</td>
-                        <td>$0</td>
-                        <td>$269</td>
-                    </tr>
-                    <tr> <!-- Row 6 -->
-                        <td>HurriKanes</td>
-                        <td>$226</td>
-                        <td>$0</td>
-                        <td>$0</td>
-                        <td>$226</td>
-                    </tr>
-                    <tr> <!-- Row 7 -->
-                        <td>Inglorious Bastards</td>
-                        <td>$123</td>
-                        <td>$65</td>
-                        <td>$0</td>
-                        <td>$58</td>
-                    </tr>
-                    <tr> <!-- Row 8 -->
-                        <td>ManCave Rules</td>
-                        <td>$123</td>
-                        <td>$43</td>
-                        <td>$0</td>
-                        <td>$80</td>
-                    </tr>
-                    <tr> <!-- Row 9 -->
-                        <td>Niepolomice Nightmares</td>
-                        <td>$193</td>
-                        <td>$0</td>
-                        <td>$0</td>
-                        <td>$193</td>
-                    </tr>
-                    <tr> <!-- Row 10 -->
-                        <td>Pacific State of Mind</td>
-                        <td>$366</td>
-                        <td>$0</td>
-                        <td>$0</td>
-                        <td>$366</td>
-                    </tr>
-                    <tr> <!-- Row 11 -->
-                        <td>The Slump Buster</td>
-                        <td>$94</td>
-                        <td>$0</td>
-                        <td>$0</td>
-                        <td>$94</td>
-                    </tr>
-                    <tr> <!-- Row 12 -->
-                        <td>Vinegar Strokes</td>
-                        <td>$118</td>
-                        <td>$35</td>
-                        <td>$0</td>
-                        <td>$83</td>
-                    </tr>
-                </tbody>                
-            </table>
+        <div class="container">
+            <h2 id="accounting">Team Accounting</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Team</th>
+                            <th class="money" scope="col">Starting $</th>
+                            <th scope="col">Tag Owed</th>
+                            <th scope="col">Bidding</th>
+                            <th scope="col">Balance</th>
+                        </tr>
+                    </thead>    
+                    <tbody class="accttable">
+                        <tr> <!-- Row 1 -->
+                            <td>Critical Acclaim</td>
+                            <td>$98</td>
+                            <td>$0</td>
+                            <td>$0</td>
+                            <td>$98</td>
+                        </tr>
+                        <tr> <!-- Row 2 -->
+                            <td>Da Short Bus Krew</td>
+                            <td>$130</td>
+                            <td>$84</td>
+                            <td>$0</td>
+                            <td>$46</td>
+                        </tr>
+                        <tr> <!-- Row 3 -->
+                            <td>Flying Chanclas</td>
+                            <td>$266</td>
+                            <td>$0</td>
+                            <td>$0</td>
+                            <td>$266</td>
+                        </tr>
+                        <tr> <!-- Row 4 -->
+                            <td>Global WarNing</td>
+                            <td>$217</td>
+                            <td>$33</td>
+                            <td>$0</td>
+                            <td>$184</td>
+                        </tr>
+                        <tr> <!-- Row 5 -->
+                            <td>Gypsy Danger</td>
+                            <td>$269</td>
+                            <td>$0</td>
+                            <td>$0</td>
+                            <td>$269</td>
+                        </tr>
+                        <tr> <!-- Row 6 -->
+                            <td>HurriKanes</td>
+                            <td>$226</td>
+                            <td>$0</td>
+                            <td>$0</td>
+                            <td>$226</td>
+                        </tr>
+                        <tr> <!-- Row 7 -->
+                            <td>Inglorious Bastards</td>
+                            <td>$123</td>
+                            <td>$65</td>
+                            <td>$0</td>
+                            <td>$58</td>
+                        </tr>
+                        <tr> <!-- Row 8 -->
+                            <td>ManCave Rules</td>
+                            <td>$123</td>
+                            <td>$43</td>
+                            <td>$0</td>
+                            <td>$80</td>
+                        </tr>
+                        <tr> <!-- Row 9 -->
+                            <td>Niepolomice Nightmares</td>
+                            <td>$193</td>
+                            <td>$0</td>
+                            <td>$0</td>
+                            <td>$193</td>
+                        </tr>
+                        <tr> <!-- Row 10 -->
+                            <td>Pacific State of Mind</td>
+                            <td>$366</td>
+                            <td>$0</td>
+                            <td>$0</td>
+                            <td>$366</td>
+                        </tr>
+                        <tr> <!-- Row 11 -->
+                            <td>The Slump Buster</td>
+                            <td>$94</td>
+                            <td>$0</td>
+                            <td>$0</td>
+                            <td>$94</td>
+                        </tr>
+                        <tr> <!-- Row 12 -->
+                            <td>Vinegar Strokes</td>
+                            <td>$118</td>
+                            <td>$35</td>
+                            <td>$0</td>
+                            <td>$83</td>
+                        </tr>
+                    </tbody>                
+                </table>
+        </div>
     </body>
 </html>
