@@ -1,6 +1,26 @@
+/* color palette
+#365F6B base color
+#77E2FF light
+#A2EBFF lighter
+#BCE0EB gray
+#A0B9C0 grayer
+#2C3E42 darker
+*/
+
+/* Universal Styles */
+
+/* Banner Section */
+
+/* Navigation Section */
+
+/* Bidding Section */
+
+/* Accounting Table Section */
+
+/* Footer Section */
+
 body {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  background-image: url(../images/field.jpg);
+  font-family:Verdana, Tahoma, sans-serif;
 }
 
 h1,
@@ -11,16 +31,14 @@ h2 {
 
 .banner {
   color: white;
-  background-color: red;
+  background-color: #365F6B;
   padding: 20px;
-  opacity: 0.7;
 }
 
 h2 {
-  color: red;
+  color: #365F6B;
   background-color: lightgray;
-  opacity: 0.7;
-  border: 2px solid black;
+  border: 2px solid #365F6B;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -29,7 +47,7 @@ h2 {
 
 p {
   text-align: center;
-  color: white;
+  color: black;
 }
 
 ul {
@@ -62,10 +80,28 @@ table {
   margin-right: auto;
   text-align: left;
   background-color: white;
-  opacity: 0.7;
+  border: 2px solid #365F6B;
 }
 
 th,
 td {
   border: 1px solid black;
+}
+
+.container {
+  background-color: #A0B9C0;
+  padding: 10px 20px;
+  padding-bottom: 20px;
+  margin: 0 200px;
+  border: 2px solid #2C3E42;
+  border-radius: 20px;
+}
+
+#accounting {
+  background-color: #A0B9C0;
+  border: none;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
 }
